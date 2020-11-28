@@ -7,7 +7,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: "Ezra Kim Creative",
+    title: "Sample",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -35,9 +35,9 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-      '@/plugins/kinesis.js',
-      {src: '@/plugins/aos.js', ssr:false},
-      '@/plugins/email.js'
+    '@/plugins/kinesis.js',
+    {src: '@/plugins/aos.js', ssr:false},
+    '@/plugins/email.js'
   ],
 
   /*

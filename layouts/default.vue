@@ -54,11 +54,11 @@ html {
 }
 
 html, body {
-    margin: 0;
-    /*height: 200vh;*/
-  width:100vw;
-    background: white;
-  overflow-x:hidden;
+  /*  margin: 0;*/
+  /*  !*height: 200vh;*!*/
+  /*width:100vw;*/
+  /*  background: white;*/
+  /*overflow-x:hidden;*/
 }
 
 </style>

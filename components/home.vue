@@ -1,15 +1,17 @@
 <template>
   <div>
+    <!--    <div class="section-above"> Section Above </div>-->
     <div class="main-section">
       <video autoplay muted loop id="myVideo">
-        <source src="~assets/ezrakimwedding.mp4" type="video/mp4">
+        <source src="~assets/weddingvideo.mp4" type="video/mp4">
       </video>
       <div class="main-title">
-        <span class="ek">EzraKim</span>
+        <span class="ek">JohnDoe</span>
         <span class="creative-text">Creative</span>
       </div>
     </div>
-
+    <!--    <div class="section-above"> Section Above </div>-->
+    <!--  <div class="section-below">Section Below</div>-->
 
   </div>
 </template>
@@ -32,11 +34,21 @@ export default {
 </script>
 
 <style  scoped>
+
+.section-above, .section-below{
+  height:100vh;
+  overflow:hidden;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap");
 .main-section{
   height:100vh;
   overflow:hidden;
-  position:absolute;
+  position:relative;
   width:100%;
 }
 
@@ -48,14 +60,14 @@ export default {
 
 video {
   z-index:1;
-  height: 100%;
-  width: 177.77777778vh; /* 100 * 16 / 9 */
+  height: 56.25vw;
+  width: 177.77vh;
   min-width: 100%;
-  min-height: 56.25vw;
+  min-height: 100%;
   position: absolute;
-  left: 50%; /* % of surrounding element */
+  left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%); /* % of current element */
+  transform: translate(-50%, -50%);
 }
 
 .main-title{

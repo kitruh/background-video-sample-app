@@ -1,0 +1,31 @@
+{
+  "name": "MaxHunter",
+  "version": "1.0.0",
+  "description": "My breathtaking Nuxt.js project",
+  "author": "Max Hunter",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "cross-env": "^5.2.0",
+    "emailjs-com": "^2.6.3",
+    "konami": "^1.6.2",
+    "nuxt": "^2.4.0",
+    "vue-analytics": "^5.17.0",
+    "vue-kinesis": "^1.1.5"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "vue-jest": "^3.0.3"
+  }
+}
